@@ -3,65 +3,115 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy 6 Months ❤️</title>
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#4facfe,#ff69b4);
-color:white;
-text-align:center;
-overflow-x:hidden;
-}
-.container{
-padding:40px 20px;
-}
-h1{
-font-size:3em;
-animation:fade 2s ease;
-}
-p{
-font-size:1.2em;
-}
-img{
-width:250px;
-border-radius:20px;
-margin:15px;
-box-shadow:0 10px 30px rgba(0,0,0,.3);
-}
-button{
-padding:15px 30px;
-font-size:18px;
-border:none;
-border-radius:30px;
-background:white;
-color:#ff1493;
-cursor:pointer;
-}
-@keyframes fade{
-from{opacity:0;transform:translateY(40px);}
-to{opacity:1;transform:translateY(0);}
-}
-</style>
+<title>Happy Girlfriend's Day ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-<div class="container">
-<h1>Happy 6 Months ❤️</h1>
+<div id="loader">
+<h1>Happy Girlfriend's Day ❤️</h1>
+<p>Loading our memories...</p>
+</div>
 
-<p>From <b>1 February 2026</b> to <b>1 August 2026</b><br>
-Every moment with you is my favorite memory.</p>
+<section class="hero">
 
-<img src="https://picsum.photos/300/400" alt="Our Photo">
+<div class="overlay"></div>
 
-<br><br>
+<div class="content">
 
-<button onclick="alert('I Love You Forever ❤️')">
-Click Me 💖
-</button>
+<h1>Bhumika ❤️</h1>
+
+<h2>Happy 6 Beautiful Months</h2>
+
+<p>
+From 1 February 2026<br>
+To Forever ❤️
+</p>
+
+<a href="#gallery" class="btn">
+Open Our Journey
+</a>
 
 </div>
+
+</section>
+
+<section class="timer">
+
+<h1>Our Journey</h1>
+
+<div id="countdown"></div>
+
+</section>
+
+<section id="gallery">
+
+<h1>Our Memories 📸</h1>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+<img src="images/photo4.jpg">
+<img src="images/photo5.jpg">
+<img src="images/photo6.jpg">
+<img src="images/photo7.jpg">
+<img src="images/photo8.jpg">
+<img src="images/photo9.jpg">
+<img src="images/photo10.jpg">
+
+</div>
+
+</section>
+
+<section class="letter">
+
+<h1>My Letter ❤️</h1>
+
+<div class="glass">
+
+<p>
+
+Happy Girlfriend's Day ❤️
+
+Thank you for making these six months the most beautiful chapter of my life.
+
+Every smile,
+every hug,
+every little memory with you
+is something I will always cherish.
+
+You are my happiness,
+my peace,
+my safe place.
+
+Happy 6 Months My Love.
+
+I Love You Forever ❤️
+
+</p>
+
+</div>
+
+</section>
+
+<section class="ending">
+
+<h1>Forever Starts With You ❤️</h1>
+
+<button onclick="celebrate()">
+Celebrate 🎉
+</button>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
